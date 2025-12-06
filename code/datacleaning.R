@@ -18,4 +18,26 @@ df$Theaters <- df$Theaters %>%
   na_if("") %>%                         # convert empty to NA
   as.numeric()
 
+# ===============================
+# FIX TOTAL GROSS
+# ===============================
+df$Total.Gross <- df$Total.Gross %>%
+  str_replace_all("[^0-9.]", "") %>%  # remove everything except digits
+  as.numeric()
+
+
+# ===============================
+# CLEAN DISTRIBUTOR
+# ===============================
+df$Distributor <- df$Distributor %>%
+  str_replace_all("'-", NA_character_) %>%
+  str_trim()
+
+# ===============================
+# CLEAN TITLES
+# ===============================
+df$Title <- df$Title %>% str_squish()
+
+# Save result
+write.csv(df, "movies_cleaned.csv", row.names = FALSE)
 
