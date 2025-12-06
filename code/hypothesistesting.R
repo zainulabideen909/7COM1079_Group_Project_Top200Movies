@@ -9,12 +9,4 @@ pearson
 spearman <- cor.test(df$Theaters, df$Total.Gross, method = "spearman")
 spearman
 
-# Regression (raw)
-model_raw <- lm(Total.Gross ~ Theaters, data = df)
-summary(model_raw)
-
-# Regression (log model)
-df$logGross <- log(df$Total.Gross)
-model_log <- lm(logGross ~ Theaters, data = df)
-summary(model_log)
 
