@@ -48,3 +48,11 @@ plot(fitted(model_log), res,
 abline(h = 0, col = "red")
 dev.off()
 
+# ===============================================
+# GRAPH 3: QQ Plot
+# ===============================================
+png(paste0(graphs_path, "qq_plot.png"), width = 1000, height = 700)
+qqnorm(res, main = "QQ Plot of Residuals")
+qqline(res, col = "red")
+dev.off()
+
