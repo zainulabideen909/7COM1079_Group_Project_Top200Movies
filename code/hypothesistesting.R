@@ -71,5 +71,26 @@ library(lmtest)
 bp <- bptest(model_log)
 
 
+# ===============================================
+# Save statistical results table
+# ===============================================
+results <- data.frame(
+  Test = c("Pearson r", "Spearman rho", "Regression Raw", "Regression Log", "Breusch-Pagan p"),
+  Statistic = c(
+    pearson$estimate,
+    spearman$estimate,
+    coef(summary(model_raw))[2,1],
+    coef(summary(model_log))[2,1],
+    bp$p.value
+  ),
+  p_value = c(
+    pearson$p.value,
+    spearman$p.value,
+    coef(summary(model_raw))[2,4],
+    coef(summary(model_log))[2,4],
+    bp$p.value
+  )
+)
 
+write.csv(results, paste0(tables_path, "stat_results.csv"), row.names = FALSE)
 
