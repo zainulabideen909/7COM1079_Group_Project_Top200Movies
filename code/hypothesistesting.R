@@ -56,3 +56,11 @@ qqnorm(res, main = "QQ Plot of Residuals")
 qqline(res, col = "red")
 dev.off()
 
+# ===============================================
+# GRAPH 4: Full 4-panel diagnostic plot
+# ===============================================
+png(paste0(graphs_path, "diagnostic_plots.png"), width = 1200, height = 1200)
+par(mfrow = c(2,2))
+plot(model_log)
+dev.off()
+
