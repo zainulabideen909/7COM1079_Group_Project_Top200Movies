@@ -207,7 +207,7 @@ source("scripts/visualization.R")
 # Run full statistical analysis
 source("scripts/statistical_tests.R")
 
-📌 GitHub Log Highlights
+## 📌 GitHub Log Highlights
 
 Our GitHub logs show strong teamwork and equal contributions:
 
@@ -221,22 +221,11 @@ Report writing updates
 
 This verifies transparency and collaborative work.
 
-🎉 Final Note
+## 🎉 Final Note
 
 This repository demonstrates our full workflow from dataset preprocessing to statistical testing, visualization, and academic reporting.
 It reflects the teamwork, analytical skills, and project management techniques learned throughout 7COM1079.
 
 
 ---
-
-# ✅ READY  
-If you want, I can also create:
-
-✅ A GitHub banner image  
-✅ Badges (build passing, version, contributors)  
-✅ A shorter abstract summary  
-✅ A professional project logo  
-✅ A pinned README GIF with visualization animations  
-
-Just tell me **“add more GitHub design”** and I’ll upgrade it even more.
 
