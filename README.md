@@ -67,54 +67,38 @@ This question was selected because theatrical reach is a crucial distribution fa
 This project was completed collaboratively by four group members.
 Each member contributed equally and sequentially through GitHub commits to ensure transparency.
 
-##✔ Zain ul Abideen – Team Leader
+## ✔ Zain ul Abideen – Team Leader
 
-Created GitHub repository & added collaborators
+- Created GitHub repository & added collaborators
+- Validated statistical assumptions (normality, linearity, homoscedasticity)
+- Performed regression diagnostics
+- Compiled and organised the final report
+- Ensured all scripts run correctly
 
-Validated statistical assumptions (normality, linearity, homoscedasticity)
+## ✔ Muhammad Bilal – Data Cleaning & Preprocessing
 
-Performed regression diagnostics
+- Imported dataset
+- Cleaned Total Gross & Theaters variables
+- Removed symbols, inconsistencies, and missing values
+- Created summary tables (mean, median, SD)
+- Exported cleaned dataset to /data
+- Report Section 1 and 2
 
-Compiled and organised the final report
+## ✔ Hamza Ali – Visualisation Specialist
 
-Ensured all scripts run correctly
+- Produced scatter plots (raw + log-transformed)
+- Plotted histograms for both variables
+- Created diagnostic and supplementary plots
+- Saved all graphs into /analysis/graphs/
+- Explained visualisations for Report Section 3
 
-##✔ Muhammad Bilal – Data Cleaning & Preprocessing
+## ✔ Ali Sufyan – Statistical Testing Analyst
 
-Imported dataset
-
-Cleaned Total Gross & Theaters variables
-
-Removed symbols, inconsistencies, and missing values
-
-Created summary tables (mean, median, SD)
-
-Exported cleaned dataset to /data
-Report Section 1 and 2
-
-##✔ Hamza Ali – Visualisation Specialist
-
-Produced scatter plots (raw + log-transformed)
-
-Plotted histograms for both variables
-
-Created diagnostic and supplementary plots
-
-Saved all graphs into /analysis/graphs/
-
-Explained visualisations for Report Section 3
-
-##✔ Ali Sufyan – Statistical Testing Analyst
-
-Ran Pearson and Spearman correlation tests
-
-Built linear and log-linear regression models
-
-Ran Breusch–Pagan test
-
-Generated results tables in /analysis/tables/
-
-Wrote Report Section 4 (Analysis)
+- Ran Pearson and Spearman correlation tests
+- Built linear and log-linear regression models
+- Ran Breusch–Pagan test
+- Generated results tables in /analysis/tables/
+- Wrote Report Section 4 (Analysis)
 
 ## 👥 Team Roles & Contributions
 
