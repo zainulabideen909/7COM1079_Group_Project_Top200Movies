@@ -62,7 +62,7 @@ This question was selected because theatrical reach is a crucial distribution fa
 
 ---
 
-👥 Team Roles & Contribution (Very Important Section for Marks)
+👥 Team Roles & Contribution 
 
 This project was completed collaboratively by four group members.
 Each member contributed equally and sequentially through GitHub commits to ensure transparency.
