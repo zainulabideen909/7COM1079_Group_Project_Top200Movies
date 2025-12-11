@@ -34,31 +34,29 @@ This question was selected because theatrical reach is a crucial distribution fa
 ---
 
 ## 📂 Repository Structure
-├── data/
-│   ├── Top_200_Movies_Dataset_2023(Cleaned).csv
-│   └── Research_question_analysis_movies_cleaned.csv
-│
-├── analysis/
-│   ├── graphs/
-│   │   ├── hist_gross.png
-│   │   ├── hist_theaters.png
-│   │   ├── scatter_raw.png
-│   │   ├── scatter_log.png
-│   │   ├── diagnostic_plots.png
-│   │   └── residuals_vs_fitted.png
-│   │
-│   └── tables/
-│       └── stat_results.csv
-│
-├── scripts/
-│   ├── cleaning.R
-│   ├── visualization.R
-│   └── statistical_tests.R
-│
-├── report/
-│   └── Final_Report.pdf
-│
-└── README.md
+## 📂 Repository structure
+
+- **7COM1079-Group-Project**
+  - **data/**
+    - `Top_200_Movies_Dataset_2023(Cleaned).csv`
+    - `Research_question_analysis_movies_cleaned.csv`
+  - **analysis/**
+    - **graphs/**
+      - `hist_gross.png`
+      - `hist_theaters.png`
+      - `scatter_raw.png`
+      - `scatter_log.png`
+      - `diagnostic_plots.png`
+      - `residuals_vs_fitted.png`
+    - **tables/**
+      - `stat_results.csv`
+  - **scripts/**
+    - `cleaning.R`
+    - `visualization.R`
+    - `statistical_tests.R`
+  - **report/**
+    - `Final_Report.pdf`
+  - `README.md`
 
 
 
